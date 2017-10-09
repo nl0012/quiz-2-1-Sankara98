@@ -18,4 +18,10 @@ public class Square extends Shape {
 	public double getSide() {
 		return side;
 	}
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return side * side;
+	}
 }
