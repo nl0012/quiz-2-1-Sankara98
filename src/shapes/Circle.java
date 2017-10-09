@@ -18,4 +18,10 @@ public class Circle extends Shape {
 	public double getRadius() {
 		return radius;
 	}
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return Math.PI * radius * radius;
+	}
 }
